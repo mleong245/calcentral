@@ -16,6 +16,9 @@ gem 'rails-perftest', '~>0.0.5'
 
 gem 'activerecord-jdbc-adapter', '~> 1.3.16'
 
+# Needed for rails_admin in Ruby 2
+gem 'safe_yaml', '~> 1.0.4'
+
 # Postgresql adapter
 gem 'activerecord-jdbcpostgresql-adapter', '~> 1.3.16'
 
@@ -82,9 +85,9 @@ gem 'rails_admin', '0.6.5'
 gem 'bootstrap-sass', '~> 3.3.1.0'
 
 # TorqueBox app server
-gem 'torquebox', '~> 3.1.2'
-gem 'torquebox-server', '~> 3.1.2'
-gem 'torquebox-messaging', '~> 3.1.2'
+gem 'torquebox', '~> 3.2.0'
+gem 'torquebox-server', '~> 3.2.0'
+gem 'torquebox-messaging', '~> 3.2.0'
 gem 'jmx', '~> 1.0'
 
 # for trying, and trying again, and then giving up.

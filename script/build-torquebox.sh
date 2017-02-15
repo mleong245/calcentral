@@ -14,8 +14,8 @@ source .rvmrc
 export RAILS_ENV=${RAILS_ENV:-production}
 export LOGGER_STDOUT=only
 # Temporary workaround for a JRuby 1.7.4 + Java 1.7 + JIT/invokedynamic bug : CLC-2732
-export JRUBY_OPTS="-Xcompile.invokedynamic=false -Xcext.enabled=true -J-Xmx900m -J-Djruby.compile.mode=OFF"
-# export JRUBY_OPTS="-Xcext.enabled=true -J-Xmx900m"
+export JRUBY_OPTS="-Xcompile.invokedynamic=false -J-Xmx900m -J-Djruby.compile.mode=OFF"
+# export JRUBY_OPTS="-J-Xmx900m"
 
 echo | $LOGIT
 echo "------------------------------------------" | $LOGIT

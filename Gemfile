@@ -114,7 +114,7 @@ gem 'closure-compiler', '~> 1.1.11'
 # Oracle adapter
 # Purposely excluding this for test environments since folks have to install ojdbc6
 group :development, :testext, :production do
-  gem 'activerecord-oracle_enhanced-adapter', '~> 1.5.6'
+  # gem 'activerecord-oracle_enhanced-adapter', '~> 1.5.6'
   gem 'rvm-capistrano', '~> 1.3.1'
   gem 'capistrano', '~> 2.15.4'
 end
